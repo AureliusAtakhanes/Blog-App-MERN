@@ -5,5 +5,7 @@
 @layer base {
   body {
     font-family: 'Montserrat', sans-serif;
+    background: #141E30;
+    min-height: 100vh;
   }
 }
