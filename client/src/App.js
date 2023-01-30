@@ -23,6 +23,7 @@ function App() {
 
   return (
     <Layout>
+      <hr className="border-2 border-blue-500" />
       <Routes>
         <Route path='/' element={<MainPage />} />
         <Route path='posts' element={<PostsPage />} />
