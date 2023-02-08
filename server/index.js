@@ -20,6 +20,7 @@ app.use(express.json());
 
 // Routes
 app.use('/api/auth', authRoute)
+app.use('/api/post', postRoute)
 
 
 async function start() {
