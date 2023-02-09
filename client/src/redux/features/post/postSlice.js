@@ -10,10 +10,10 @@ const initialState = {
 export const createPost = createAsyncThunk('post/createPost',
     async (params) => {
         try {
-            const { data } = await axios.post('./posts', params)
+            const { data } = await axios.post('/posts', params)
             return data
         } catch (error) {
-
+            console.log(error)
         }
     },
 )
