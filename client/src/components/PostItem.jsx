@@ -43,6 +43,7 @@ const PostItem = ({ post }) => {
                     {post.text.substring(0, 220)} ...
                 </p>
 
+
                 <div className="flex gap-3 items-center mt-2">
                     <button className='flex items-center justify-center gap-2 text-xs text-white opacity-50'>
                         <AiFillEye /> <span>{post.views}</span>
